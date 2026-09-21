@@ -1,0 +1,13 @@
+html {
+    text-align: center;
+    font-family: Monaco;
+    background-color: antiquewhite;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    display: inline;
+}
