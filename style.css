@@ -17,10 +17,17 @@ html {
     border: 1px solid black;
 }
 
+.color {
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
 .gridContainer {
   margin-top: 5px;
   margin-right: 40px;
   margin-left: 40px;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
   display: inline-grid;
   border: 5px solid black;
   border-radius: 5px;
