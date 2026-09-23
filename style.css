@@ -22,6 +22,20 @@ html {
     border: 1px solid black;
 }
 
+.page{
+    text-align: right;
+    margin-right:170px;
+    margin-top: -700px;
+}
+.reset {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
 .gridContainer {
   margin-top: 5px;
   margin-right: 40px;
@@ -30,7 +44,8 @@ html {
   grid-template-rows: repeat(16, 2fr);
   display: inline-grid;
   border: 5px solid black;
-  border-radius: 5px;
+  border-radius: 25px;
+  overflow: hidden;
   height: 740px;
   width: 1000px;
 }
