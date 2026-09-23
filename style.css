@@ -4,6 +4,12 @@ html {
     background-color: antiquewhite;
 }
 
+h1
+{
+ font-family: 'Press Start 2P', monospace;
+ font-size:  25px;
+}
+
 .right {
     float: center;
 }
@@ -28,6 +34,8 @@ html {
     margin-top: -700px;
 }
 .reset {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 20px;
     background-color: gray;
     color: aliceblue;
     border-radius: 25px;
