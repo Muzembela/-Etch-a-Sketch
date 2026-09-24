@@ -24,20 +24,6 @@ const getRandomColor = () => {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-/*updateGrid = ()=>
-{
-    grid.innerHTML="";
-    grid.style.setProperty("grid-template-columns", `repeat(${userInput.value}, 1fr)`);
-    grid.style.setProperty("grid-template-rows", `repeat(${userInput.value}, 1fr)`);
-    for(let i = 0; i < userInput.value*userInput.value; i++) {
-        const div = document.createElement("div")
-        div.classList.add("square");
-        grid.appendChild(div);
-    }
-    console.log(userInput.value);
-};*/
-
-
 grid.addEventListener("mouseover", function(event) {
     if (event.target.classList.contains("square")) {
         event.target.style.backgroundColor = getRandomColor()
@@ -55,16 +41,6 @@ resetButton.addEventListener("click", () => {
         alert("Please, insert a valid number.");
     }
 });
-
-/*userInput.addEventListener("prompt", updateGrid);*/
-
-/*resetButton.addEventListener("click", function() {
-    grid.innerHTML="";
-   // userInput.value="";
-    grid.style.setProperty("grid-template-columns", `repeat(16, 1fr)`);
-    grid.style.setProperty("grid-template-rows", `repeat(16, 1fr)`);
-    createGrid()
-});*/
 
 
 createGrid(16)
